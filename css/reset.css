@@ -1,0 +1,68 @@
+body,
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+input {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #edeff0;
+  font-family: '微软雅黑';
+  font-size: 12px;
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  border: 0;
+  outline: none;
+}
+img {
+  border: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: #787D82;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  *zoom: 1;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* IE6 */
+/* IE7 */
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1431325408_739159.eot');
+  src: url('//at.alicdn.com/t/font_1431325408_739159.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1431325408_739159.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/font_1431325408_739159.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_1431325408_739159.svg#iconfont') format('svg');
+  
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+}
